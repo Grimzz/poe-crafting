@@ -1,0 +1,29 @@
+Feel free to update this if you think of anything else, just lmk when you do so.
+
+Vaal Probability tool:
+------------------Data we need--------------
+-Item base-type (Are attribute requirements relevant?)
+-Item level
+-Desired corruption
+-------------------Client Side--------------
+-Drop-down menu for desired corruption (with alphabetical sorting)
+-Auto completion when searching for corruption names.
+-Itemlevel dependent corruption probabilities
+-Have a 'view summary' button so that users can see all possible outcomes from
+vaaling the item.
+---------------------Economy----------------
+-User input base price of item as well as vaal->chaos ratio. 
+-User input value of desired corruption in chaos.
+-When calculations are complete, use the probabilty of desired vaal implicit to
+calculate whether they will come out on top over time.
+-If we can figure out a way to pull data from currency.poe.trade these could be 
+more automated.
+
+------------Questions to Answer-------------
+-Do we really want to use JavaScript? Java works for web apps like ours as well
+-Are attribute requirements relevant?
+-Which data-structure do we want to use to store the vaal corruption options?
+	-Don't need to change data once it's read in.
+	-Non-hierarchical.
+	-Need to be able to sort data for dropdown menu (Or we can just hardcode that)
+	-Will not be that large an amount of data.
