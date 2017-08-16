@@ -3,9 +3,10 @@ public class Weight {
 	private int weight;
 	private String tag;
 
-	Weight(String tag, int weight){
-		this.tag = tag;
-		this.weight = weight;
+	Weight(String input){
+		String[] data = input.split(" ");
+		this.tag = data[0];
+		this.weight = data[1];
 	}
 
 	public String getTag(){

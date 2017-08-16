@@ -2,33 +2,26 @@ import java.util.ArrayList;
 import java.io.*;
 
 public class Implicit {
-	// private fields
-	private String name, effect;
+	private String name;
 	private int itemLvl;
+	private String effect;
 	private ArrayList<Weight> rollTags;
 
-	// non-default constructor that assigns values and initializes 'weights'
-	Attribute(String name, int ilvl, String effect){ 
+	Implicit(String name, int ilvl, String effect, String[] tags){
 		this.name = name;
-		itemLvl = ilvl;
+		this.itemLvl = ilvl;
 		this.effect = effect;
-		rollTags = new ArrayList<Weight>();
+
+		// iteratively add our tags array elements to our ArrayList of rollTags
+		for (String curr:tags) 
+			rollTags.add(new Weight(curr));
 	}
 
-	/**
-	* Receives a String holding a tag and tag value as input. Splits up the input String
-	* and then adds that to the rollTags ArrayList.
-	* Example: addRollTag("ring 1000"); would then turn into: 
-	* rollTags.add(new Weight("ring", 1000));
-	*/
-	public boolean addRollTag(String input){
-		String[] temp = input.split(" ");
-		try {
-			rollTags.add(new Weight(temp[0],Integer.parseInt(temp[1])));
-			return true;
-		} catch (IndexOutOfBoundsException e){
-			e.getMessage();
-			return false;
-		}
+	public ArrayList<Weight> getTags(){
+		return rollTags;
+	}
+
+	public String toString(){
+		return name + itemLvl + effect;
 	}
 }
