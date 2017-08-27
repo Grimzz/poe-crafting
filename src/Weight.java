@@ -6,7 +6,7 @@ public class Weight {
 	Weight(String input){
 		String[] data = input.split(" ");
 		this.tag = data[0];
-		this.weight = data[1];
+		this.weight = Integer.parseInt(data[1]);
 	}
 
 	public String getTag(){

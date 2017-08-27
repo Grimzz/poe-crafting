@@ -1,12 +1,17 @@
 import java.util.ArrayList;
+import java.util.Arrays;
 
 public abstract class Item {
 	private ArrayList<Implicit> potRolls;
-	private String[] tags;
-	private String baseType;
-	private int poolSize;
+	private ArrayList<String> tags; // the tags that apply to the given type of weapon (axe, one hand axe, weapon etc)
+	private String baseType = "";
+	private int poolSize = 0;
 
-	Item(String baseType){
+	Item(String baseType, String[] tag, String name){
+		potRolls = new ArrayList<>();
+		tags = new ArrayList<>(Arrays.asList(tag));
+		baseType = name;
+		/*
 		switch (baseType) {
 			case "Bow": new Bow();
 				break;
@@ -49,7 +54,7 @@ public abstract class Item {
 			case "Quiver": new Quiver();
 				break;
 		}
-	}
+	*/}
 
 	/**
 	* Receives a String holding a tag and tag value as input. Splits up the input String
@@ -57,15 +62,12 @@ public abstract class Item {
 	* Example: addRoll("AddedChaosDamageCorrupted1 0); would then turn into: 
 	* rollTags.add(new Weight("AddedChaosDamageCorrupted1", 0));
 	*/
-	public boolean addRoll(Weight input){
-		try {
-			potRolls.add(input);
-			poolSize += weight;
-			return true;
-		} catch (IndexOutOfBoundsException e){
-			e.getMessage();
-			return false;
-		}
+	public boolean addRoll(Implicit input, int weight){
+
+		potRolls.add(input);
+		poolSize += weight;
+
+		return true;
 	}
 
 	/**
@@ -73,16 +75,18 @@ public abstract class Item {
 	* item tags. If it IS, we return true, if it is NOT, we return false.
 	*/
 	public boolean contains(String inputTag){
-		for (int i = 0; i < tags.length; i++){
-			if (inputTag.equals(tags[i]))
+		for (int i = 0; i < tags.size(); i++){
+			if (inputTag.equals(tags.get(i)))
 				return true; //if the incoming ID matches ANY of our classes ID's, we return true
 		}
 		return false; // if we get to the end of our array without any matches
 	}
+
 	public String toString(){
 		String output = "";
 		for (int i = 0; i < potRolls.size(); i++){
-
+			output += potRolls.get(i).toString();
 		}
+		return output;
 	}
 }

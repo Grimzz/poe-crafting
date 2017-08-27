@@ -4,6 +4,7 @@ import java.io.*;
 public class Implicit {
 	private String name;
 	private int itemLvl;
+	private int weight;
 	private String effect;
 	private ArrayList<Weight> rollTags;
 
@@ -12,9 +13,12 @@ public class Implicit {
 		this.itemLvl = ilvl;
 		this.effect = effect;
 
+		rollTags = new ArrayList<>();
 		// iteratively add our tags array elements to our ArrayList of rollTags
-		for (String curr:tags) 
-			rollTags.add(new Weight(curr));
+		for (String curr:tags) {
+			if (curr != null)
+				rollTags.add(new Weight(curr));
+		}
 	}
 
 	public ArrayList<Weight> getTags(){

@@ -7,8 +7,7 @@ public class OneHandAxe extends Item {
 	private static String name = "One Hand Axe";
 	private int poolSize; // the cumulative value of all the possible Implicits
 
-	OneHandAxe(){
-		poolSize = 0;
-		addRoll("AddedChaosDamageCorrupted1 200");
+	public OneHandAxe(String input){
+		super(input, tags, name);
 	}
 }
