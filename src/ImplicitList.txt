@@ -1,3 +1,4 @@
+$
 AddedChaosDamageCorrupted1	1	Adds 1 to (2-3) Chaos Damage to Attacks
 no_attack_mods 0
 ring 1,000
