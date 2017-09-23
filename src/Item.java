@@ -3,58 +3,16 @@ import java.util.Arrays;
 
 public abstract class Item {
 	private ArrayList<Implicit> potRolls;
-	private ArrayList<String> tags; // the tags that apply to the given type of weapon (axe, one hand axe, weapon etc)
+	private ArrayList<String> tags; // the tags that apply to the given type of weapon
 	private String baseType = "";
 	private int poolSize = 0;
 
-	Item(String baseType, String[] tag, String name){
+	Item(String baseType, String tagStr){
+		String[] tagArray = tagStr.split(" ");
 		potRolls = new ArrayList<>();
-		tags = new ArrayList<>(Arrays.asList(tag));
-		baseType = name;
-		/*
-		switch (baseType) {
-			case "Bow": new Bow();
-				break;
-			case "Claw": new Claw();
-				break;
-			case "Dagger": new Dagger();
-				break;
-			case "One Hand Axe": new OneHandAxe();
-				break;
-			case "One Hand Mace": new OneHandMace();
-				break;
-			case "One Hand Sword": new OneHandSword();
-				break;
-			case "Sceptre": new Sceptre();
-				break;
-			case "Staff": new Staff();
-				break;
-			case "Two Hand Axe": new TwoHandAxe();
-				break;
-			case "Two Hand Mace": new TwoHandMace();
-				break;
-			case "Two Hand Sword": new TwoHandSword();
-				break;
-			case "Wand": new Wand();
-				break;
-			case "Body Armour": new BodyArmour();
-				break;
-			case "Boots": new Boots();
-				break;
-			case "Gloves": new Gloves();
-				break;
-			case "Helmet": new Helmet();
-				break;
-			case "Shield": new Shield();
-				break;
-			case "Amulet": new Amulet();
-				break;
-			case "Ring": new Ring();
-				break;
-			case "Quiver": new Quiver();
-				break;
-		}
-	*/}
+		this.tags = new ArrayList<>(Arrays.asList(tagArray));
+		this.baseType = baseType;
+	}
 
 	/**
 	* Receives a String holding a tag and tag value as input. Splits up the input String

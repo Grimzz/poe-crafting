@@ -7,7 +7,7 @@ public class OneHandAxe extends Item {
 	private static String name = "One Hand Axe";
 	private int poolSize; // the cumulative value of all the possible Implicits
 
-	public OneHandAxe(String input){
-		super(input, tags, name);
+	public OneHandAxe(String name, String tags){
+		super(name, tags);
 	}
 }

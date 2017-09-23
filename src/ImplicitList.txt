@@ -1,0 +1,522 @@
+AddedChaosDamageCorrupted1	1	Adds 1 to (2-3) Chaos Damage to Attacks
+no_attack_mods 0
+ring 1,000
+default 0
+$
+AddedChaosDamageCorrupted2	20	Adds (3-4) to (6-8) Chaos Damage to Attacks
+no_attack_mods 0
+ring 1,000
+default 0
+$
+AddedChaosDamageCorrupted3	40	Adds (7-9) to (11-13) Chaos Damage to Attacks
+no_attack_mods 0
+ring 1,000
+default 0
+$
+AddedChaosDamageJewelCorrupted	1	Adds 1 to (2-3) Chaos Damage to Attacks	jewel
+1,000
+default 0
+$
+AdditionalAOERangeCorruption	1	(4-6)% increased Area of Effect of Area Skills
+belt 1,000
+default 0
+$
+AdditionalArrowsCorruption	1	Adds an additional Arrow
+no_attack_mods 0
+quiver 1,000
+bow 500
+default 0
+$
+AdditionalCurseCorrupted	1	Enemies can have 1 additional Curse
+amulet 500
+default 0
+$
+AdditionalPierceCorruption	1	Arrows Pierce an additional Target
+no_attack_mods 0
+bow 1,000
+default 0
+$
+AdditionalTrapsCorruption_	1	Can have up to 1 additional Trap placed at a time
+belt 1,000
+default 0
+$
+AngerSkillCorrupted	56	Grants level 15 Anger Skill
+helmet 330
+default 0
+$
+AttackSpeedCorrupted	1	(4-8)% increased Attack Speed
+no_attack_mods 0
+amulet 1,000
+default 0
+$
+AvoidShockCorruption	1	(10-20)% chance to Avoid being Shocked
+body_armour 1,000
+belt 1,000
+default 0
+$
+BlockChanceCorrupted	1	(2-4)% Chance to Block
+staff 1,000
+amulet 1,000
+default 0
+$
+CanCatchCorruptFishCorrupted	1	You can catch Corrupted Fish
+fishing_rod 1,000
+default 0
+$
+CannotBeKnockedBackCorruption	1	Cannot be Knocked Back
+boots 1,000
+body_armour 1,000
+default 0
+$
+CannotBeLeechedFromCorruption	1	Enemies Cannot Leech Life From You
+helmet 1,000
+default 0
+$
+CastSpeedCorrupted	1	(10-20)% increased Cast Speed
+no_caster_mods 0
+fishing_rod 1,000
+default 0
+$
+ChanceToAvoidFreezeCorruption	1	(10-20)% chance to Avoid being Frozen
+amulet 500
+body_armour 500
+ring 100
+default 0
+$
+ChanceToAvoidIgniteCorruption	1	(10-20)% chance to Avoid being Ignited
+amulet 500
+body_armour 500
+shield 500
+default 0
+$
+ChanceToBeCritJewelCorrupted	1	(3-5)% additional Chance to receive a Critical Strike
+jewel 1,000
+default 0
+$
+ChanceToDodgeCorruption	1	(2-4)% chance to Dodge Attacks
+boots 1,000
+default 0
+$
+ChanceToFleeCorrupted	1	5% chance to Cause Monsters to Flee
+weapon 1,000
+default 0
+$
+ChaosDamagePerCorruptedItemJewelCorrupted	1	1% increased Chaos Damage per equipped Corrupted Item
+jewel 1,000
+default 0
+$
+ChaosResistCorruption	1	+(2-4)% to Chaos Resistance
+fishing_rod 0
+weapon 0
+jewel 0
+default 2,000
+$
+ChaosResistJewelCorrupted	1	+(1-3)% to Chaos Resistance
+jewel 1,000
+default 0
+$
+ClaritySkillCorrupted1	19	Grants level 4 Clarity Skill
+amulet 250
+belt 350
+default 0
+$
+ClaritySkillCorrupted2	32	Grants level 8 Clarity Skill
+amulet 250
+belt 350
+default 0
+$
+ClaritySkillCorrupted3	47	Grants level 12 Clarity Skill
+belt 350
+default 0
+$
+ClaritySkillCorrupted4	59	Grants level 16 Clarity Skill
+belt 350
+default 0
+$
+ColdDamageLifeLeechPermyriadCorrupted	50	0.2% of Cold Damage Leeched as Life
+amulet 1,000
+quiver 1,000
+two_hand_weapon 1,000
+weapon 200
+default 0
+$
+ConductivitySkillCorrupted	46	Grants level 14 Conductivity Skill
+ring 500
+default 0
+$
+CriticalWeaknessSkillCorrupted	31	Grants level 10 Assassin's Mark Skill
+gloves 1,000
+default 0
+$
+CullingStrikeCorrupted	1	Culling Strike
+sword 1,000
+axe 1,000
+dagger 1,000
+wand 1,000
+bow 1,000
+claw 1,000
+default 0
+$
+CurseOnHitElementalWeaknessCorruption	30	Curse Enemies with level (10-12) Elemental Weakness on Hit
+gloves 400
+default 0
+$
+CurseOnHitTemporalChainsCurruption	30	Curse Enemies with level (10-12) Temporal Chains on Hit
+gloves 400
+default 0
+$
+CurseOnHitVulnerabilityCorruption	30	Curse Enemies with level (10-12) Vulnerability on Hit
+gloves 400
+default 0
+$
+DamageConversionColdCorruption	1	(10-20)% of Physical Damage Converted to Cold Damage
+quiver 500
+sceptre 500
+default 0
+$
+DamageConversionFireCorruption	1	(10-20)% of Physical Damage Converted to Fire Damage
+quiver 500
+sceptre 500
+default 0
+$
+DamageConversionLighningCorruption	1	(10-20)% of Physical Damage Converted to Lightning Damage
+quiver 500
+sceptre 500
+default 0
+$
+DamageTakenFlatReductionCorrupted1	1	-(10-5) Physical Damage taken from Attacks
+amulet 1,000
+shield 1,000
+default 0
+$
+DamageTakenFlatReductionCorrupted2	30	-(16-11) Physical Damage taken from Attacks
+amulet 1,000
+shield 1,000
+default 0
+$
+DamageTakenFlatReductionCorrupted3	60	-(24-17) Physical Damage taken from Attacks
+amulet 1,000
+shield 1,000
+default 0
+$
+DamageTakenFromManaBeforeLifeCorruption	1	(3-5)% of Damage is taken from Mana before Life
+helmet 1,000
+default 0
+$
+DamageWhileDeadJewelCorrupted	1	(20-30)% increased Damage while Dead
+jewel 1,000
+default 0
+$
+DeterminationSkillCorrupted	61	Grants level 16 Determination Skill
+shield 330
+default 0
+$
+DisciplineSkillCorrupted	61	Grants level 16 Discipline Skill
+shield 330
+default 0
+$
+DualWieldBlockCorruption	1	(3-6)% additional Block Chance while Dual Wielding
+sceptre 0
+axe 0
+mace 0
+wand 0
+one_hand_weapon 1,000
+default 0
+$
+ElementalWeaknessSkillCorrupted	31	Grants level 10 Elemental Weakness Skill
+wand 1,000
+default 0
+$
+FireDamageLifeLeechPermyriadCorrupted	50	0.2% of Fire Damage Leeched as Life
+amulet 1,000
+quiver 1,000
+two_hand_weapon 1,000
+weapon 200
+default 0
+$
+FishingQuantityCorrupted	1	(5-10)% increased Quantity of Fish Caught
+fishing_rod 1,000
+default 0
+$
+FishingRarityCorrupted	1	(5-10)% increased Rarity of Fish Caught
+fishing_rod 1,000
+default 0
+$
+FlammabilitySkillCorrupted	46	Grants level 14 Flammability Skill
+ring 500
+default 0
+$
+FrostbiteSkillCorrupted	46	Grants level 14 Frostbite Skill
+ring 500
+default 0
+$
+GemLevelCorruption	1	+1 to Level of Socketed Gems
+boots 1,000
+gloves 1,000
+body_armour 1,000
+shield 1,000
+default 0
+$
+GraceSkillCorrupted	61	Grants level 16 Grace Skill
+shield 330
+default 0
+$
+HasteSkillCorrupted	40	Grants level 14 Haste Skill
+boots 1,000
+default 0
+$
+HatredSkillCorrupted	44	Grants level 11 Hatred Skill
+helmet 330
+default 0
+$
+IncreasedCastSpeedCorrupted	1	(4-6)% increased Cast Speed
+no_caster_mods 0
+ring 500
+gloves 1,000
+focus 1,000
+default 0
+$
+IncreasedChargeDurationJewelCorrupted_	1	(3-7)% increased Endurance, Frenzy and Power Charge Duration
+jewel 1,000
+default 0
+$
+IncreasedDurationCorruption	1	(5-8)% increased Skill Effect Duration
+belt 1,000
+default 0
+$
+LifeLeechRatePerCorruptedItemJewelCorrupted	1	1% increased Life Leeched per second per equipped Corrupted Item
+jewel 1,000
+default 0
+$
+LightningDamageLifeLeechPermyriadCorrupted	50	0.2% of Lightning Damage Leeched as Life
+amulet 1,000
+quiver 1,000
+two_hand_weapon 1,000
+weapon 200
+default 0
+$
+LocalAddedChaosDamageCorrupted1	1	Adds (1-2) to (3-5) Chaos Damage
+no_attack_mods 0
+weapon 1,000
+default 0
+$
+LocalAddedChaosDamageCorrupted2	20	Adds (6-8) to (11-13) Chaos Damage
+no_attack_mods 0
+weapon 1,000
+default 0
+$
+LocalAddedChaosDamageCorrupted3	40	Adds (8-11) to (19-23) Chaos Damage
+no_attack_mods 0
+weapon 1,000
+default 0
+$
+LocalMeleeWeaponRangeCorrupted	1	+(1-2) to Weapon range
+no_attack_mods 0
+sceptre 0
+rapier 0
+wand 0
+bow 0
+weapon 1,000
+default 0
+$
+ManaLeechRatePerCorruptedItemJewelCorrupted	1	1% increased Mana Leeched per second per equipped Corrupted Item
+jewel 1,000
+default 0
+$
+ManaOnHitCorrupted	40	+(1-2) Mana gained for each Enemy hit by your Attacks
+no_attack_mods 0
+ring 500
+default 0
+$
+ManaOnLifeLostCorrupted	1	(3-6)% of Damage taken gained as Mana over 4 seconds when Hit
+amulet 1,000
+ring 1,000
+shield 1,000
+default 0
+$
+MaxFrenzyChargesCorrupted	20	+1 to Maximum Frenzy Charges
+boots 1,000
+amulet 1,000
+default 0
+$
+MaxPowerChargesCorrupted	20	+1 to Maximum Power Charges
+two_hand_weapon 1,000
+default 0
+$
+MaximumEnduranceChargesCorruption_	1	+1 to Maximum Endurance Charges
+belt 1,000
+default 0
+$
+MaximumResistanceCorrupted	1	+1% to all maximum Resistances
+amulet 100
+body_armour 200
+default 0
+$
+MinionDamageCorrupted	1	Minions deal (15-20)% increased Damage
+helmet 1,000
+amulet 1,000
+default 0
+$
+MovementVelocityCorrupted	1	(2-5)% increased Movement Speed
+amulet 1,000
+boots 1,000
+default 0
+$
+ProjectileWeaknessSkillCorrupted	58	Grants level 15 Projectile Weakness Skill
+quiver 1,000
+default 0
+$
+PurityOfColdSkillCorrupted	45	Grants level 15 Purity of Ice Skill
+amulet 150
+body_armour 500
+default 0
+$
+PurityOfFireSkillCorrupted_	45	Grants level 15 Purity of Fire Skill
+amulet 150
+body_armour 500
+default 0
+$
+PurityOfLightningSkillCorrupted	45	Grants level 15 Purity of Lightning Skill
+amulet 150
+body_armour 500
+default 0
+$
+PuritySkillCorrupted	45	Grants level 15 Purity of Elements Skill
+amulet 300
+belt 1,000
+default 0
+$
+ReducedCharacterSizeJewelCorrupted	1	1% reduced Character Size
+jewel 1,000
+default 0
+$
+ReducedChillDurationJewelCorrupted	1	(3-5)% reduced Chill Duration on You
+jewel 1,000
+default 0
+$
+ReducedFreezeDurationJewelCorrupted	1	(3-5)% reduced Freeze Duration on You
+jewel 1,000
+default 0
+$
+ReducedIgniteDurationJewelCorrupted	1	(3-5)% reduced Ignite Duration on You
+jewel 1,000
+default 0
+$
+ReducedShockDurationJewelCorrupted	1	(3-5)% reduced Shock Duration on You
+jewel 1,000
+default 0
+$
+SilenceImmunityJewelCorrupted	1	You cannot be Cursed with Silence
+jewel 1,000
+default 0
+$
+SocketedSkillsManaMultiplierCorrupted	1	Socketed Skill Gems get a 95% Mana Multiplier
+body_armour 1,000
+default 0
+$
+SocketedVaalGemsIncreaseCorrupted	1	+(1-2) to Level of Socketed Vaal Gems
+helmet 1,000
+gloves 1,000
+boots 1,000
+body_armour 1,000
+shield 1,000
+default 0
+$
+SpellBlockChanceCorrupted	1	(2-4)% Chance to Block Spells
+staff 1,000
+amulet 1,000
+shield 1,000
+default 0
+$
+SupportedByAccuracyCorrupted_	48	Socketed Gems are supported by level 12 Additional Accuracy
+no_attack_mods 0
+one_hand_weapon 0
+sword 1,000
+default 0
+$
+SupportedByAddedFireDamageCorrupted	48	Socketed Gems are Supported by level 12 Added Fire Damage
+two_hand_weapon 0
+mace 1,000
+default 0
+$
+SupportedByAreaOfEffectCorrupted_	24	Socketed Gems are Supported by level 1 Increased Area of Effect
+staff 1,000
+default 0
+$
+SupportedByCastOnCritCorruption	35	Socketed Gems are supported by level 12 Cast On Crit
+gloves 1,000
+helmet 1,000
+default 0
+$
+SupportedByCastOnStunCorruption	35	Socketed Gems are supported by level 12 Cast when Stunned
+gloves 1,000
+helmet 1,000
+default 0
+$
+SupportedByCriticalMultiplierCorrupted	35	Socketed Gems are supported by level 14 Increased Critical Damage
+dagger 1,000
+default 0
+$
+SupportedByElementalProliferationCorrupted	12	Socketed Gems are Supported by level 1 Elemental Proliferation
+wand 1,000
+default 0
+$
+SupportedByFasterCastCorrupted	24	Socketed Gems are Supported by Level 10 Faster Casting
+no_caster_mods 0
+sceptre 1,000
+default 0
+$
+SupportedByForkCorrupted	6	Socketed Gems are supported by level 1 Fork
+bow 1,000
+default 0
+$
+SupportedByLifeLeechCorrupted	59	Socketed Gems are supported by level 15 Life Leech
+claw 1,000
+default 0
+$
+SupportedByMeleeSplashCorruption	20	Socketed Gems are supported by level 10 Melee Splash
+no_attack_mods 0
+wand 0
+one_hand_weapon 1,000
+default 0
+$
+SupportedByMultistrikeCorrupted	28	Socketed Gems are supported by level 1 Multistrike
+no_attack_mods 0
+two_hand_weapon 0
+sword 1,000
+default 0
+$
+SupportedByStunCorrupted	38	Socketed Gems are supported by level 6 Stun
+mace 1,000
+default 0
+$
+SupportedByWeaponElementalDamageCorrupted_	24	Socketed Gems are supported by level 12 Weapon Elemental Damage
+no_attack_mods 0
+sceptre 1,000
+default 0
+$
+TemporalChainsSkillCorrupted	40	Grants level 14 Temporal Chains Skill
+boots 1,000
+default 0
+$
+VaalSkillDamageJewelCorrupted	1	(5-10)% increased Vaal Skill Damage
+jewel 1,000
+default 0
+$
+VitalitySkillCorrupted	35	Grants level 15 Vitality Skill
+belt 1,000
+default 0
+$
+VulnerabilitySkillCorrupted	31	Grants level 10 Vulnerability Skill
+axe 1,000
+default 0
+$
+WeaponElementalDamageCorrupted	1	(6-12)% increased Elemental Damage with Attack Skills
+no_attack_mods 0
+ring 1,000
+amulet 1,000
+default 0
+$
+WrathSkillCorrupted	28	Grants level 7 Wrath Skill
+helmet 330
+default 0
